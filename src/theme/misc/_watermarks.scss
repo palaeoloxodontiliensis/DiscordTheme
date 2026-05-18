@@ -4,7 +4,7 @@
 // Watermark
 #{c(settings sidebarInfo)} {
   &::after {
-    content: $themeName ' ' $version;
+    content: 'Luna`s Discord';
     color: cv('text.muted');
     font-size: 12px;
     line-height: calc(4 / 3);
@@ -15,7 +15,7 @@
 :is(#{c(main themeDark)}, #{c(main themeLight)}):not(#{c(os mac)}) {  
   #{c(title leading container)} {
     &::before {
-      content: $themeName;
+      content: 'Luna`s';
       position: static;
       margin-left: 10px;
       font-size: 16px;
@@ -25,7 +25,7 @@
       filter: drop-shadow(0 0 5px cv('color.main'));
     }
     &::after {
-      content: $version;
+      content: 'Discord';
       position: static;
       margin-top: -5px;
       margin-left: 5px;
